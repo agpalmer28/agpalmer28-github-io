@@ -1,26 +1,33 @@
 /* ===================== style.css ===================== */
 body {
-  margin: 10%;
+  margin: 0;
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   background-color: #f4f7f2;
   color: #2f4f3a;
   line-height: 1.6;
-  letter-spacing: 0.3px;
 }
 
 main {
-  max-width: 1000px;
-  margin: auto;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 5%;
 }
 
 .site-header {
   text-align: center;
   background-color: #e6f2e6;
-  padding: 20px;
+  padding: 20px 5%;
+}
+
+.hero {
+  background-color: #dcefdc;
+  text-align: center;
+  padding: 50px 5%;
 }
 
 .logo {
-  width: 55%;
+  max-width: 500px;
+  width: 60%;
   height: auto;
 }
 
@@ -64,7 +71,7 @@ p {
 }
 
 section {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 .float-img {
